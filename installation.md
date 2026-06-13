@@ -8,10 +8,10 @@
 
 ## Create project environment
 
-- Create a project folder called whatever name you want to give it (e.g. SHRO2026)
-- Copy the file environment.yml to the project folder
+- Create a project folder called whatever name you want to give it (e.g. SHRO2026_project)
+- Copy the file `environment.yml` to the project folder
 - Open the Anaconda Prompt and change to directory to the project folder
-- Enter: `conda env create --file=environment.yml`
-- Enter: `conda activate shro2026_environment`
-- You should see "(shro2026_environment)" appearing before the prompt
+- Enter `conda env create --file=environment.yml` and wait for the conda environment to install
+- Enter `conda activate shro2026_environment` to activate the conda environment
+- You should see `(shro2026_environment)` appearing before the prompt
 - Tp open spyder from the Anaconda Prompt, enter: `spyder`
